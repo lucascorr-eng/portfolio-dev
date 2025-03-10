@@ -1,0 +1,63 @@
+#intro-box { 
+  background: url(../assets/images/bg-intro.png) no-repeat center/cover;
+  padding: 120px 163px 57px;
+}
+
+#info { 
+  max-width: 1040px;
+  margin-inline: auto;
+
+  header {
+    max-width: 680px;
+    margin-inline: auto;
+    text-align: center;
+
+    img {
+      margin-bottom: 56px;
+      object-fit: cover;
+
+    }
+  }
+}
+
+.helo-info {
+  margin-bottom: 8px;
+  span {
+    color: var(--red);
+  }
+}
+
+.description-info {
+  margin-top: 20px;
+}
+
+
+#skills {
+  max-width: 745px;
+  margin-top: 80px;
+  margin-inline: auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+
+}
+
+.content-skills {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  padding: 8px 16px;
+
+  background-color: var(--gray-300);
+  border-radius: 999px;
+}
+
+#double-down {
+  display: flex;
+  margin: 94px auto 0;
+  
+  
+}

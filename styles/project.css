@@ -1,0 +1,16 @@
+#projects-box { 
+  padding: 72px 163px 144px;
+}
+
+#text-projects {
+  text-align: center;
+  
+  p {
+    color: var(--red);
+    margin-bottom: 8px;
+  }
+
+  h2 {
+    margin-bottom: 56px;
+  }
+}
