@@ -1,5 +1,6 @@
 #projects-box { 
-  padding: 72px 163px 144px;
+  padding-block: 72px 144px;
+  margin-inline: auto;
 }
 
 #text-projects {
@@ -16,7 +17,7 @@
 }
 
 #grid-projects {
-  max-width: 1040px;
+  width: 1040px;
   margin-inline: auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);

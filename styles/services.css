@@ -1,5 +1,6 @@
 #services-box {
-  padding: 88px 120px 120px;
+  padding-block: 88px 120px;
+  margin-inline: auto;
   background-color: var(--gray-100);
 }
 
