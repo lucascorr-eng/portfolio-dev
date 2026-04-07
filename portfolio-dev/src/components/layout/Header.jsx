@@ -72,7 +72,9 @@ function Header() {
               >
                 {item.label}
               </span>
-              <span className={item.active ? "text-green-500" : "text-gray-300"}>
+              <span
+                className={item.active ? "text-green-500" : "text-gray-300"}
+              >
                 →
               </span>
             </button>
@@ -86,7 +88,7 @@ function Header() {
           contato
         </button>
 
-        <p className="mt-4 text-center font-firaCode text-xs text-gray-300">
+        <p className="mt-4 text-center font-firaCode text-xs text-gray-500">
           lucascorrea.dev - 2026
         </p>
       </aside>
