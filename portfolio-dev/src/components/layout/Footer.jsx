@@ -1,7 +1,9 @@
+import DividerLine from "../ui/dividerLine";
+
 function Footer() {
   return (
     <footer className=" w-full mt-10">
-      <div className="h-px bg-gray-400 w-full " />
+      <DividerLine/>
 
       <div className="grid justify-center gap-2 font-firaCode text-gray-500 text-xs p-6">
         <span className="text-center">© 2026 LucasCorrea.dev — feito com muito café</span>

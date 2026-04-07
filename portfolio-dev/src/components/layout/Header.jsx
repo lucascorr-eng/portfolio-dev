@@ -1,5 +1,6 @@
 import { useState } from "react";
 import menu from "../../assets/icons/menu-bar.svg";
+import DividerLine from "../ui/dividerLine";
 
 const menuItems = [
   { label: "início", active: true },
@@ -28,7 +29,7 @@ function Header() {
           </button>
         </div>
 
-        <div className="h-px bg-gray-400 w-full" />
+        <DividerLine />
       </header>
 
       {isMenuOpen && (
