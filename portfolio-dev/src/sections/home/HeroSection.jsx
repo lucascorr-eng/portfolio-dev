@@ -29,7 +29,7 @@ function HeroSection() {
             2{" "}
             <span className="text-white">
               <span className="text-amber-400">nome</span>:{" "}
-              <span className="text-green-400">"Seu Nome"</span>,
+              <span className="text-green-400">"Lucas Corrêa"</span>,
             </span>
           </p>
           <p>
