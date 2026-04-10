@@ -1,6 +1,6 @@
 import { Routes, Route } from "react-router-dom";
-import Home from "../pages/Home";
-// import Projects from "../pages/Projects";
+// import Home from "../pages/Home";
+import Projects from "../pages/Projects";
 // import Skills from "../pages/Skills";
 // import About from "../pages/About";
 // import Contact from "../pages/Contact";
@@ -8,7 +8,7 @@ import Home from "../pages/Home";
 function AppRoutes() {
   return (
     <Routes>
-      <Route path="/" element={<Home />} />
+      <Route path="/" element={<Projects />} />
     </Routes>
   );
 }
