@@ -3,7 +3,7 @@ import DividerLine from "../../components/ui/dividerLine";
 function HeroSection() {
   return (
     <>
-      <div className="font-inter  text-sm px-6">
+      <div className="font-inter text-sm px-6">
         <div className="bg-green-100 font-firaCode text-xs font-medium text-green-700 rounded-2xl inline-flex  items-center gap-2 px-4 py-1 mb-5">
           <span className="h-2 w-2 bg-green-700 rounded-full "></span>
           <p>disponível para trabalho</p>
