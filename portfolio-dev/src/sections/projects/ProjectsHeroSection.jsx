@@ -11,7 +11,7 @@ function ProjectsHeroSection() {
           novo.
         </p>
         <div className="flex gap-2 mb-6">
-          <span className="text-black">8</span>
+          <span className="text-black">4</span>
           <p className="text-gray-500">projetos no total</p>
         </div>
       </div>
