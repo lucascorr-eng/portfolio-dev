@@ -1,7 +1,9 @@
+import DividerLine from "../../components/ui/dividerLine";
+
 function SkillsHeroSection() {
   return (
     <>
-      <div className="font-inter text-sm px-6">
+      <div className="font-inter text-sm px-6 mb-8">
         <p className="text-green-700 font-firaCode">// stack & skills</p>
         <h1 className="text-3xl font-bold mb-2">o que eu sei fazer</h1>
         <p className="text-gray-500 mb-10">
@@ -28,6 +30,8 @@ function SkillsHeroSection() {
           </div>
         </div>
       </div>
+
+      <DividerLine />
     </>
   );
 }
