@@ -7,9 +7,9 @@ function AboutCollegeSection() {
         </h3>
 
         <div className="grid border border-gray-500 rounded-lg p-4">
-          <div className="flex justify-between">
+          <div className="flex items-center justify-between">
             <h2 className="text-lg">Engenharia de Software</h2>
-            <div className="flex items-center gap-3 bg-green-100 rounded-xl px-4">
+            <div className="flex items-center gap-3 bg-green-100 rounded-xl h-6 px-4">
               <div className="h-3 w-3 bg-green-300 rounded-full "></div>
               <p>cursando</p>
             </div>
@@ -43,7 +43,7 @@ function AboutCollegeSection() {
             </div>
           </div>
 
-          <div className="flex flex-wrap gap-2 mt-4">
+          <div className="flex flex-wrap gap-3 mt-4">
             <div className="text-green-900 bg-green-100 px-2 py-1 rounded-md">
               <p>1º</p>
             </div>
@@ -53,19 +53,19 @@ function AboutCollegeSection() {
             <div className="text-green-900 bg-green-100 px-2 py-1 rounded-md">
               <p>3º</p>
             </div>
-            <div className="text-green-900 bg-green-100 px-2 py-1 rounded-md">
+            <div className="text-white bg-green-700 px-2 py-1 rounded-md">
               <p>4º</p>
             </div>
-            <div className="text-green-900 bg-green-100 px-2 py-1 rounded-md">
+            <div className="text-green-900 bg-mist-200 px-2 py-1 rounded-md">
               <p>5º</p>
             </div>
-            <div className="text-green-900 bg-green-100 px-2 py-1 rounded-md">
+            <div className="text-green-900 bg-mist-200 px-2 py-1 rounded-md">
               <p>6º</p>
             </div>
-            <div className="text-green-900 bg-green-100 px-2 py-1 rounded-md">
+            <div className="text-green-900 bg-mist-200 px-2 py-1 rounded-md">
               <p>7º</p>
             </div>
-            <div className="text-green-900 bg-green-100 px-2 py-1 rounded-md">
+            <div className="text-green-900 bg-mist-200 px-2 py-1 rounded-md">
               <p>8º</p>
             </div>
           </div>
