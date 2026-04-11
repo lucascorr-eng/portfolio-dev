@@ -16,7 +16,7 @@ function ProjectsListSection() {
                 Loja completa com carrinho, checkout, pagamento via Stripe e
                 painel admin com gestão de estoque.
               </p>
-              <div className="font-firaCode flex gap-3 my-5">
+              <div className="font-firaCode flex flex-wrap gap-3 my-5">
                 <span className="bg-mist-100 px-3 rounded-md">React</span>
                 <span className="bg-mist-100 px-3 rounded-md">Node.js</span>
                 <span className="bg-mist-100 px-3 rounded-md">PostgreSQL</span>
@@ -41,7 +41,7 @@ function ProjectsListSection() {
                 Loja completa com carrinho, checkout, pagamento via Stripe e
                 painel admin com gestão de estoque.
               </p>
-              <div className="font-firaCode flex gap-3 my-5">
+              <div className="font-firaCode flex flex-wrap gap-3 my-5">
                 <span className="bg-mist-100 px-3 rounded-md">React</span>
                 <span className="bg-mist-100 px-3 rounded-md">Node.js</span>
                 <span className="bg-mist-100 px-3 rounded-md">PostgreSQL</span>
@@ -66,7 +66,7 @@ function ProjectsListSection() {
                 Loja completa com carrinho, checkout, pagamento via Stripe e
                 painel admin com gestão de estoque.
               </p>
-              <div className="font-firaCode flex gap-3 my-5">
+              <div className="font-firaCode flex flex-wrap gap-3 my-5">
                 <span className="bg-mist-100 px-3 rounded-md">React</span>
                 <span className="bg-mist-100 px-3 rounded-md">Node.js</span>
                 <span className="bg-mist-100 px-3 rounded-md">PostgreSQL</span>
@@ -91,7 +91,7 @@ function ProjectsListSection() {
                 Loja completa com carrinho, checkout, pagamento via Stripe e
                 painel admin com gestão de estoque.
               </p>
-              <div className="font-firaCode flex gap-3 my-5">
+              <div className="font-firaCode flex flex-wrap gap-3 my-5">
                 <span className="bg-mist-100 px-3 rounded-md">React</span>
                 <span className="bg-mist-100 px-3 rounded-md">Node.js</span>
                 <span className="bg-mist-100 px-3 rounded-md">PostgreSQL</span>
@@ -105,8 +105,6 @@ function ProjectsListSection() {
             </div>
           </div>
         </div>
-        
-
       </div>
     </>
   );

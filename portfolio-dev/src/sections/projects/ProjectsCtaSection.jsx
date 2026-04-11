@@ -6,9 +6,9 @@ function ProjectsCtaSection() {
           <p className="text-gray-500">
             quer ver mais? tudo está no <a className="text-black">GitHub</a>
           </p>
-          <button className="rounded-xl py-3 border border-gray-400 w-full mt-3 ">
+          <a href="https://github.com/lucascorr-eng" target="_blank" rel="noreferrer" className="block text-center rounded-xl py-3 border border-gray-400 w-full mt-3 ">
             ⌥ ver perfil no github
-          </button>
+          </a>
         </div>
       </div>
     </>

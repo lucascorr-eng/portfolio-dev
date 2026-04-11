@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import DividerLine from "../../components/ui/dividerLine";
 
 function HeroSection() {
@@ -65,16 +66,25 @@ function HeroSection() {
         </div>
 
         <div className="mt-8 grid grid-cols-2 gap-3">
-          <button className="rounded-xl py-3 bg-black text-white">
+          <Link
+            to="/projects"
+            className="block rounded-xl py-3 bg-black text-white text-center"
+          >
             ver projetos
-          </button>
-          <button className="rounded-xl py-3 border border-gray-400">
+          </Link>
+          <a
+            href="../../assets/pdfs/cv-template.pdf"
+            download
+            className="text-center rounded-xl py-3 border border-gray-400"
+          >
             baixar CV
-          </button>
+          </a>
         </div>
       </div>
-      
-      <div className="mt-8"><DividerLine /></div>
+
+      <div className="mt-8">
+        <DividerLine />
+      </div>
     </>
   );
 }

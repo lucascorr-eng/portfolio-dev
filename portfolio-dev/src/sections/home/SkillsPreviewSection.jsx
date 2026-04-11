@@ -1,4 +1,5 @@
 import arrow from "../../assets/icons/arrow-right.svg";
+import { Link } from "react-router-dom";
 
 function SkillsPreviewSection() {
   return (
@@ -6,9 +7,9 @@ function SkillsPreviewSection() {
       <div className="font-inter  text-sm px-6 mt-6">
         <div className="flex justify-between mb-4">
           <h2 className="font-bold text-xl">habilidades técnicas</h2>
-          <button className="flex items-center text-gray-500">
+          <Link to={"/skills"} className="flex items-center text-gray-500">
             ver todos <img src={arrow} alt="" className="w-4 h-4" />
-          </button>
+          </Link>
         </div>
 
         <div className="grid gap-5 font-firaCode">

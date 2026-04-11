@@ -12,13 +12,13 @@ function AboutHeroSection() {
             dev full stack — construindo coisas que funcionam e ficam bonitas
           </p>
           <div className="flex gap-4 m-auto">
-            <a className="text-gray-500 border border-gray-500 py-1 px-4 rounded-lg">
+            <a href="https://github.com/lucascorr-eng" target="_blank" rel="noreferrer" className="text-gray-500 border border-gray-500 py-1 px-4 rounded-lg">
               github
             </a>
-            <a className="text-gray-500 border border-gray-500 py-1 px-3 rounded-lg">
+            <a href="https://www.linkedin.com/in/lucas-corr%C3%AAa-b09bbb34a/" target="_blank" rel="noreferrer" className="text-gray-500 border border-gray-500 py-1 px-3 rounded-lg">
               linkedin
             </a>
-            <a className="text-gray-500 border border-gray-500 py-1 px-3 rounded-lg">
+            <a href="https://www.youtube.com/@lcs-engsoft" target="_blank" rel="noreferrer" className="text-gray-500 border border-gray-500 py-1 px-3 rounded-lg">
               youtube
             </a>
           </div>

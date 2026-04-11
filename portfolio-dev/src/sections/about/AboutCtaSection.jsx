@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function AboutCtaSection() {
   return (
     <>
@@ -11,9 +13,9 @@ function AboutCtaSection() {
             </p>
           </div>
           <div className="font-firaCode">
-            <button className="mt-3 rounded-xl py-3 bg-black text-white w-full">
+            <Link to={"/contact"} className="text-center block mt-3 rounded-xl py-3 bg-black text-white w-full">
               entrar em contato
-            </button>
+            </Link>
           </div>
         </div>
       </div>

@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function ContactCtaSection() {
   return (
     <>
@@ -11,16 +13,29 @@ function ContactCtaSection() {
           </div>
           <div className="font-firaCode">
             <div className="mt-4 grid grid-cols-2 gap-3">
-              <button className="rounded-xl py-3 border border-gray-400">
+              <a
+                href="https://github.com/lucascorr-eng"
+                target="_blank"
+                rel="noreferrer"
+                className="rounded-xl py-3 border border-gray-400 text-center"
+              >
                 github
-              </button>
-              <button className="rounded-xl py-3 border border-gray-400">
+              </a>
+              <a
+                href="https://www.linkedin.com/in/lucas-corr%C3%AAa-b09bbb34a/"
+                target="_blank"
+                rel="noreferrer"
+                className="rounded-xl py-3 border border-gray-400 text-center"
+              >
                 linkedin
-              </button>
+              </a>
             </div>
-            <button className="mt-3 rounded-xl py-3 bg-black text-white w-full">
-             entrar em contato
-            </button>
+            <Link
+              to={"/contact"}
+              className="mt-3 block rounded-xl py-3 bg-black text-white text-center w-full"
+            >
+              entrar em contato
+            </Link>
           </div>
         </div>
       </div>
