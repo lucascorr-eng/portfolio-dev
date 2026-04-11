@@ -1,12 +1,13 @@
 import { useState } from "react";
 import menu from "../../assets/icons/menu-bar.svg";
 import DividerLine from "../ui/dividerLine";
+import { NavLink } from "react-router-dom";
 
 const menuItems = [
-  { label: "início", active: true },
-  { label: "projetos", active: false },
-  { label: "habilidades", active: false },
-  { label: "sobre", active: false },
+  { label: "início", to: "/" },
+  { label: "projetos", to: "/projects" },
+  { label: "habilidades", to: "/skills" },
+  { label: "sobre", to: "/about" },
 ];
 
 function Header() {
@@ -61,33 +62,40 @@ function Header() {
 
         <nav className="flex-1">
           {menuItems.map((item) => (
-            <button
+            <NavLink
               key={item.label}
-              type="button"
+              to={item.to}
+              end={item.to === "/"}
+              onClick={() => setIsMenuOpen(false)}
               className="flex w-full items-center justify-between border-b border-gray-200 py-4 text-left"
             >
-              <span
-                className={`text-4xl font-bold leading-none ${
-                  item.active ? "text-black" : "text-gray-300"
-                }`}
-              >
-                {item.label}
-              </span>
-              <span
-                className={item.active ? "text-green-500" : "text-gray-300"}
-              >
-                →
-              </span>
-            </button>
+              {({ isActive }) => (
+                <>
+                  <span
+                    className={`text-4xl font-bold leading-none ${
+                      isActive ? "text-black" : "text-gray-300"
+                    }`}
+                  >
+                    {item.label}
+                  </span>
+                  <span
+                    className={isActive ? "text-green-500" : "text-gray-300"}
+                  >
+                    →
+                  </span>
+                </>
+              )}
+            </NavLink>
           ))}
         </nav>
 
-        <button
-          type="button"
-          className="mt-6 rounded-2xl bg-zinc-900 py-3 font-bold text-white"
+        <NavLink
+          to="/contact"
+          onClick={() => setIsMenuOpen(false)}
+          className="mt-6 rounded-2xl bg-zinc-900 py-3 font-bold text-center text-white"
         >
           contato
-        </button>
+        </NavLink>
 
         <p className="mt-4 text-center font-firaCode text-xs text-gray-500">
           lucascorrea.dev - 2026

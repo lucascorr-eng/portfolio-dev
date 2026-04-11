@@ -8,11 +8,11 @@ import Contact from "../pages/Contact";
 function AppRoutes() {
   return (
     <Routes>
-      <Route path="/" element={<Contact />} />
       <Route path="/" element={<Home />} />
-      <Route path="/" element={<Projects />} />
-      <Route path="/" element={<Skills />} />
-      <Route path="/" element={<About />} />
+      <Route path="/projects" element={<Projects />} />
+      <Route path="/skills" element={<Skills />} />
+      <Route path="/about" element={<About />} />
+      <Route path="/contact" element={<Contact />} />
     </Routes>
   );
 }
