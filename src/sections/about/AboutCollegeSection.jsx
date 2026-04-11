@@ -33,12 +33,12 @@ function AboutCollegeSection() {
           <div className="mt-6">
             <div className="flex justify-between">
               <p className="text-gray-500">progresso do curso </p>
-              <p className="text-green-900">60% concluído</p>
+              <p className="text-green-900">45% concluído</p>
             </div>
             <div className="bg-gray-300 h-1 w-full rounded-2xl">
               <div
                 className="bg-green-500 h-full rounded-2xl mt-3"
-                style={{ width: "60%" }}
+                style={{ width: "45%" }}
               ></div>
             </div>
           </div>

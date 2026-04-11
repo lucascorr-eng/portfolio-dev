@@ -22,14 +22,14 @@ function FeaturedProjectsSection() {
             <div className="grid gap-2 text-gray-500">
               <h3 className="text-lg text-black">E-commerce App</h3>
               <p className="">Loja com carrinho, pagamento e painel admin</p>
-              <div className="font-firaCode flex gap-3">
+              <div className="font-firaCode flex flex-wrap gap-3">
                 <span className="bg-mist-100 px-3 rounded-md">React</span>
                 <span className="bg-mist-100 px-3 rounded-md">Node.js</span>
                 <span className="bg-mist-100 px-3 rounded-md">Stripe</span>
               </div>
             </div>
           </div>
-          <div className="flex gap-3 border border-gray-500 rounded-xl py-2 mb-6">
+          <div className="flex flex-wrap  gap-3 border border-gray-500 rounded-xl py-2 mb-6">
             <img src={logoRobot} alt="" className="w-25 h-25" />
             <div className="grid gap-2 text-gray-500">
               <h3 className="text-lg text-black">E-commerce App</h3>
@@ -40,7 +40,7 @@ function FeaturedProjectsSection() {
               </div>
             </div>
           </div>
-          <div className="flex gap-3 border border-gray-500 rounded-xl py-2 mb-6">
+          <div className="flex flex-wrap  gap-3 border border-gray-500 rounded-xl py-2 mb-6">
             <img src={logoGit} alt="" className="w-25 h-25" />
             <div className="grid gap-2 text-gray-500">
               <h3 className="text-lg text-black">Dashboard Analytics</h3>
