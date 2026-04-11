@@ -1,4 +1,4 @@
-import DividerLine from "../../components/ui/dividerLine";
+import DividerLine from "../../components/ui/DividerLine";
 
 function ContactHeroSection() {
   return (
@@ -15,7 +15,7 @@ function ContactHeroSection() {
           </p>
         </div>
       </div>
-      <DividerLine/>
+      <DividerLine />
     </>
   );
 }

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import menu from "../../assets/icons/menu-bar.svg";
-import DividerLine from "../ui/dividerLine";
+import DividerLine from "../ui/DividerLine";
 import { NavLink } from "react-router-dom";
 
 const menuItems = [

@@ -1,4 +1,4 @@
-import DividerLine from "../../components/ui/dividerLine";
+import DividerLine from "../../components/ui/DividerLine";
 
 function ProjectsHeroSection() {
   return (

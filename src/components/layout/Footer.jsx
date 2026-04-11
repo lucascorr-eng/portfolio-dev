@@ -1,12 +1,14 @@
-import DividerLine from "../ui/dividerLine";
+import DividerLine from "../ui/DividerLine";
 
 function Footer() {
   return (
     <footer className=" w-full mt-10">
-      <DividerLine/>
+      <DividerLine />
 
       <div className="grid justify-center gap-2 font-firaCode text-gray-500 text-xs p-6">
-        <span className="text-center">© 2026 LucasCorrea.dev — feito com muito café</span>
+        <span className="text-center">
+          © 2026 LucasCorrea.dev — feito com muito café
+        </span>
         <div className="flex justify-center gap-8.5">
           <a
             href="https://github.com/lucascorr-eng"

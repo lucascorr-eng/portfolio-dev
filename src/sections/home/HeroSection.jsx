@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import DividerLine from "../../components/ui/dividerLine";
+import DividerLine from "../../components/ui/DividerLine";
 
 function HeroSection() {
   return (

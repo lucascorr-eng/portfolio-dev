@@ -1,5 +1,5 @@
 import arrow from "../../assets/icons/arrow-right.svg";
-import DividerLine from "../../components/ui/dividerLine";
+import DividerLine from "../../components/ui/DividerLine";
 import logoMakerting from "../../assets/images/logoMakerting.png";
 import logoGit from "../../assets/images/logoGit.png";
 import logoRobot from "../../assets/images/logoRobot.png";
