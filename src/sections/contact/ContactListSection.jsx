@@ -7,7 +7,7 @@ import youtube from "../../assets/icons/youtube.svg";
 function ContactListSection() {
   return (
     <>
-      <div className="grid gap-3 font-inter text-sm px-6 my-6">
+      <div className="grid gap-3 font-inter text-sm px-6 my-6 lg:w-190">
         <div className="flex items-center justify-between border border-gray-500 rounded-xl p-2">
           <div className="flex gap-4 items-center">
             <div className="bg-blue-100 w-10 h-10 rounded-md flex items-center justify-center">

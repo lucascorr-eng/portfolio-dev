@@ -3,7 +3,7 @@ import clock from "../../assets/icons/clock.svg"
 function ContactInfoSection() {
   return (
     <>
-      <div className="font-inter text-sm px-6 my-6 text-gray-500">
+      <div className="font-inter text-sm px-6 mt-6 text-gray-500">
         <div className="bg-mist-100 p-4 rounded-lg">
           <div className="flex items-center gap-3 ">
             <div className="w-2 h-2 rounded-full bg-green-600"></div>

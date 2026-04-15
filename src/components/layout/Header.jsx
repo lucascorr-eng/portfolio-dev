@@ -30,7 +30,7 @@ function Header() {
             <span className="text-green-700">./</span>LucasCorrea
           </p>
 
-          <div className="flex justify-between gap-10 text-gray-500">
+          <div className="hidden  justify-between gap-10 text-gray-500 lg:flex">
             {menuItemsPC.map((item) => (
               <NavLink
                 key={item.label}

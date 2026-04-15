@@ -1,7 +1,7 @@
 function AboutCollegeSection() {
   return (
     <>
-      <div className="font-inter text-sm px-6 my-10">
+      <div className="font-inter text-sm px-6 my-10 lg:grid-cols-2 lg:gap-x-8 lg:w-full lg:max-w-480 lg:mx-auto">
         <h3 className="font-firaCode text-base text-gray-500 mb-6">
           FORMAÇÃO ACADÊMICA
         </h3>
@@ -15,18 +15,27 @@ function AboutCollegeSection() {
             </div>
           </div>
           <p className="text-gray-500">Universidade de Franca — Hibrido</p>
-          <div className="flex flex-wrap font-firaCode text-green-900 gap-2 gap-x-3 mt-4">
-            <div className="bg-green-100 rounded-lg px-2">
-              <p>algoritmos</p>
+          <div className="flex justify-between">
+            <div className="flex items-center flex-wrap font-firaCode text-green-900 gap-2 gap-x-3 mt-1">
+              <div className="bg-green-100 rounded-lg px-2">
+                <p>algoritmos</p>
+              </div>
+              <div className="bg-green-100 rounded-lg px-2">
+                <p>arquitetura</p>
+              </div>
+              <div className="bg-green-100 rounded-lg px-2">
+                <p>banco de dados</p>
+              </div>
+              <div className="bg-green-100 rounded-lg px-2">
+                <p>requisitos</p>
+              </div>
             </div>
-            <div className="bg-green-100 rounded-lg px-2">
-              <p>arquitetura</p>
-            </div>
-            <div className="bg-green-100 rounded-lg px-2">
-              <p>banco de dados</p>
-            </div>
-            <div className="bg-green-100 rounded-lg px-2">
-              <p>requisitos</p>
+
+            <div className="text-gray-500 flex justify-between mt-4 lg:grid lg:justify-items-end">
+              <p>ingresso: 2022 </p>
+              <p>
+                conclusão: <span className="text-black">2025/2</span>
+              </p>
             </div>
           </div>
 
@@ -85,7 +94,7 @@ function AboutCollegeSection() {
             </div>
           </div>
 
-          <div className="text-gray-500 flex justify-between mt-4">
+          <div className="text-gray-500 flex justify-between mt-4 lg:hidden">
             <p>ingresso: 2022 </p>
             <p>
               conclusão: <span className="text-black">2025/2</span>

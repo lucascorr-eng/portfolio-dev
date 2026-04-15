@@ -3,11 +3,11 @@ import DividerLine from "../../components/ui/DividerLine";
 function ContactHeroSection() {
   return (
     <>
-      <div className="font-inter text-sm px-6 mb-8">
+      <div className="font-inter text-sm px-6 mb-8 lg:w-full lg:max-w-480 lg:mx-auto">
         <div>
           <p className="text-green-700 font-firaCode">// contato</p>
           <h1 className="text-3xl font-bold mb-2">
-            bora trocar uma <span>ideia?</span>
+            bora trocar uma <span className="text-green-700">ideia?</span>
           </h1>
           <p className="text-gray-500 mb-8">
             seja para um projeto, freela, oportunidade ou só um papo sobre

@@ -6,8 +6,10 @@ function Contact() {
   return (
     <main>
       <ContactHeroSection />
-      <ContactListSection />
-      <ContactInfoSection />
+      <div className="lg:mt-8 lg:grid lg:grid-cols-2 gap-5 lg:w-full lg:max-w-480 lg:mx-auto">
+        <ContactListSection />
+        <ContactInfoSection />
+      </div>
     </main>
   );
 }
