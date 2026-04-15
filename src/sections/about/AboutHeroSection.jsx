@@ -57,7 +57,7 @@ function AboutHeroSection() {
           </p>
         </div>
       </div>
-      <div className="font-inter text-sm px-6 lg:grid-cols-2 lg:gap-x-8 lg:w-full lg:max-w-480 lg:mx-auto">
+      <div className="font-inter text-sm px-6 hidden lg:block lg:gap-x-8 lg:w-full lg:max-w-480 lg:mx-auto">
         <div className="lg:grid lg:grid-cols-[220px_1fr] lg:gap-20 sm:hidden md:hidden">
           <div className="text-center ">
             <div className="grid justify-items-center mt-6">
@@ -123,7 +123,7 @@ function AboutHeroSection() {
         </div>
       </div>
 
-      <div className="sm:hidden md:hidden lg:block">
+      <div className="hidden lg:flex">
       <DividerLine/>
       </div>
     </>
