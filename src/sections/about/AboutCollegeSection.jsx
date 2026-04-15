@@ -31,7 +31,7 @@ function AboutCollegeSection() {
               </div>
             </div>
 
-            <div className="text-gray-500 flex justify-between mt-4 lg:grid lg:justify-items-end">
+            <div className="text-gray-500 justify-between mt-4 hidden lg:grid lg:justify-items-end">
               <p>ingresso: 2022 </p>
               <p>
                 conclusão: <span className="text-black">2025/2</span>
