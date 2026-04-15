@@ -3,7 +3,16 @@ import menu from "../../assets/icons/menu-bar.svg";
 import DividerLine from "../ui/DividerLine";
 import { NavLink } from "react-router-dom";
 
+import { Link } from "react-router-dom";
+
 const menuItems = [
+  { label: "início", to: "/" },
+  { label: "projetos", to: "/projects" },
+  { label: "habilidades", to: "/skills" },
+  { label: "sobre", to: "/about" },
+];
+
+const menuItemsPC = [
   { label: "início", to: "/" },
   { label: "projetos", to: "/projects" },
   { label: "habilidades", to: "/skills" },
@@ -15,23 +24,50 @@ function Header() {
 
   return (
     <>
-      <header className="mb-10">
+      <header className="px-6 lg:grid-cols-2 lg:gap-x-8 lg:w-full lg:max-w-480 lg:mx-auto">
         <div className="flex items-center justify-between w-full p-4 font-firaCode">
           <p>
             <span className="text-green-700">./</span>LucasCorrea
           </p>
 
+          <div className="flex justify-between gap-10 text-gray-500">
+            {menuItemsPC.map((item) => (
+              <NavLink
+                key={item.label}
+                to={item.to}
+                end={item.to === "/"}
+                className={({ isActive }) =>
+                  isActive ? "text-black" : "text-gray-500"
+                }
+              >
+                {item.label}
+              </NavLink>
+            ))}
+          </div>
+
+          <nav className="hidden lg:block">
+            <NavLink
+              to="/contact"
+              onClick={() => setIsMenuOpen(false)}
+              className="mt-6 bg-zinc-900 py-1 px-4 rounded-2xl  font-semibold text-center text-white"
+            >
+              contato
+            </NavLink>
+          </nav>
+
           <button
             type="button"
             onClick={() => setIsMenuOpen(true)}
             aria-label="Abrir menu"
+            className="lg:hidden"
           >
             <img src={menu} alt="" className="w-6 h-6" />
           </button>
         </div>
-
-        <DividerLine />
       </header>
+      <div className="mb-10">
+        <DividerLine />
+      </div>
 
       {isMenuOpen && (
         <div

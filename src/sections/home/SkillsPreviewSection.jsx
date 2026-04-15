@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function SkillsPreviewSection() {
   return (
     <>
-      <div className="font-inter  text-sm px-6 mt-6">
+      <div className="font-inter  text-sm px-6 mt-6 md:px-12 lg:w-full lg:max-w-480 lg:mx-auto">
         <div className="flex justify-between mb-4">
           <h2 className="font-bold text-xl">habilidades técnicas</h2>
           <Link to={"/skills"} className="flex items-center text-gray-500">
@@ -12,7 +12,7 @@ function SkillsPreviewSection() {
           </Link>
         </div>
 
-        <div className="grid gap-5 font-firaCode">
+        <div className="grid gap-5 font-firaCode lg:grid-cols-2 gap-x-12">
           <div>
             <h3 className="text-gray-500 mb-2">FRONTEND</h3>
             <div className="grid gap-1">
