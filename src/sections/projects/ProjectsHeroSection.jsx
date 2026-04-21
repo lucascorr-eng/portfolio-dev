@@ -7,8 +7,7 @@ function ProjectsHeroSection() {
         <p className="text-green-700 font-firaCode">// projetos</p>
         <h1 className="text-3xl font-bold mb-2">coisas que construí</h1>
         <p className="text-gray-500 mb-5">
-          projetos pessoais, acadêmicos e freelances — cada um ensinou algo
-          novo.
+          projetos pessoais, acadêmicos e freelances — código, lógica e aplicações na prática.
         </p>
         <div className="flex gap-2 mb-6">
           <span className="text-black">6</span>

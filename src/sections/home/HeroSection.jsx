@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import cvFile from "../../assets/pdfs/cv-template.pdf"
 import DividerLine from "../../components/ui/DividerLine";
 
 function HeroSection() {
@@ -14,11 +15,10 @@ function HeroSection() {
 
         <div className="order-2 lg:order-3 lg:w-70">
           <h1 className="text-3xl font-bold mb-5">
-            Dev <span className="text-green-700">Full Stack</span> & criador
+            Dev <span className="text-green-700">Full Stack</span> & software Engineer
           </h1>
           <p className="text-gray-500 mb-5">
-            Construo interfaces que as pessoas adoram usar e sistemas que
-            escalam com elegância. Código limpo, UX bem pensada.
+            Desenvolvo aplicações completas, com atenção à experiência do usuário, organização do código e foco em performance e escalabilidade.
           </p>
         </div>
 
@@ -60,12 +60,12 @@ function HeroSection() {
             <span className="text-xs text-gray-500">projeto</span>
           </div>
           <div className="bg-mist-100 rounded-xl py-2">
-            <p className="font-bold text-xl">3 anos</p>
+            <p className="font-bold text-xl">2 anos</p>
             <span className="text-xs text-gray-500">experiência</span>
           </div>
           <div className="bg-mist-100 rounded-xl py-2">
-            <p className="font-bold text-xl">open src</p>
-            <span className="text-xs text-gray-500">contrib.</span>
+            <p className="font-bold text-xl">+5</p>
+            <span className="text-xs text-gray-500">tecnologias</span>
           </div>
         </div>
 
@@ -77,7 +77,7 @@ function HeroSection() {
             ver projetos
           </Link>
           <a
-            href="../../assets/pdfs/cv-template.pdf"
+            href={cvFile}
             download
             className="text-center rounded-xl py-3 border border-gray-400 lg:px-4"
           >

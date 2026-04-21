@@ -18,23 +18,23 @@ function AboutCollegeSection() {
           <div className="flex justify-between">
             <div className="flex items-center flex-wrap font-firaCode text-green-900 gap-2 gap-x-3 mt-1">
               <div className="bg-green-100 rounded-lg px-2">
-                <p>algoritmos</p>
+                <p>estruturas de dados e lógica</p>
               </div>
               <div className="bg-green-100 rounded-lg px-2">
-                <p>arquitetura</p>
+                <p>arquitetura de sistemas</p>
               </div>
               <div className="bg-green-100 rounded-lg px-2">
-                <p>banco de dados</p>
+                <p>desenvolvimento ágil</p>
               </div>
               <div className="bg-green-100 rounded-lg px-2">
-                <p>requisitos</p>
+                <p>APIs e integração</p>
               </div>
             </div>
 
             <div className="text-gray-500 justify-between mt-4 hidden lg:grid lg:justify-items-end">
-              <p>ingresso: 2022 </p>
+              <p>ingresso: 2024 </p>
               <p>
-                conclusão: <span className="text-black">2025/2</span>
+                conclusão: <span className="text-black">2028/2</span>
               </p>
             </div>
           </div>

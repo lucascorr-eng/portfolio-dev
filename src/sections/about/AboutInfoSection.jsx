@@ -3,7 +3,7 @@ import DividerLine from "../../components/ui/DividerLine";
 function AboutInfoSection() {
   return (
     <>
-      <div className="grid grid-cols-2 gap-4 font-inter text-sm px-6 my-8 lg:px-0">
+      <div className="grid grid-cols-2 gap-4 font-inter text-sm text-black px-6 my-8 lg:px-0">
         <div className="rounded-lg bg-mist-100 p-3">
           <p className="text-gray-500">localização</p>
           <p className="text-base">Brasil </p>

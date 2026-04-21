@@ -21,16 +21,16 @@ function SkillsPreviewSection() {
                 <div className="bg-gray-300 h-1 w-40 rounded-2xl">
                   <div
                     className="bg-green-500 h-full rounded-2xl"
-                    style={{ width: "70%" }}
+                    style={{ width: "60%" }}
                   ></div>
                 </div>
               </div>
               <div className="flex justify-between items-center">
-                <p>TypeScript</p>
+                <p>JavaScript</p>
                 <div className="bg-gray-300 h-1 w-40 rounded-2xl">
                   <div
                     className="bg-green-500 h-full rounded-2xl"
-                    style={{ width: "40%" }}
+                    style={{ width: "80%" }}
                   ></div>
                 </div>
               </div>
@@ -39,7 +39,7 @@ function SkillsPreviewSection() {
                 <div className="bg-gray-300 h-1 w-40 rounded-2xl">
                   <div
                     className="bg-green-500 h-full rounded-2xl"
-                    style={{ width: "65%" }}
+                    style={{ width: "75%" }}
                   ></div>
                 </div>
               </div>
@@ -58,20 +58,20 @@ function SkillsPreviewSection() {
                 </div>
               </div>
               <div className="flex justify-between items-center">
-                <p>Python</p>
+                <p>APIs REST</p>
                 <div className="bg-gray-300 h-1 w-40 rounded-2xl">
                   <div
                     className="bg-green-500 h-full rounded-2xl"
-                    style={{ width: "40%" }}
+                    style={{ width: "60%" }}
                   ></div>
                 </div>
               </div>
               <div className="flex justify-between items-center">
-                <p>PostgreSQL</p>
+                <p>Database (SQL / NoSQL)</p>
                 <div className="bg-gray-300 h-1 w-40 rounded-2xl">
                   <div
                     className="bg-green-500 h-full rounded-2xl"
-                    style={{ width: "65%" }}
+                    style={{ width: "35%" }}
                   ></div>
                 </div>
               </div>
@@ -90,20 +90,20 @@ function SkillsPreviewSection() {
                 </div>
               </div>
               <div className="flex justify-between items-center">
-                <p>Pandas</p>
+                <p>Chatbots AI</p>
                 <div className="bg-gray-300 h-1 w-40 rounded-2xl">
                   <div
                     className="bg-green-500 h-full rounded-2xl"
-                    style={{ width: "40%" }}
+                    style={{ width: "35%" }}
                   ></div>
                 </div>
               </div>
               <div className="flex justify-between items-center">
-                <p>LangChain</p>
+                <p>Automações com IA</p>
                 <div className="bg-gray-300 h-1 w-40 rounded-2xl">
                   <div
                     className="bg-green-500 h-full rounded-2xl"
-                    style={{ width: "65%" }}
+                    style={{ width: "25%" }}
                   ></div>
                 </div>
               </div>
@@ -117,7 +117,7 @@ function SkillsPreviewSection() {
                 <div className="bg-gray-300 h-1 w-40 rounded-2xl">
                   <div
                     className="bg-green-500 h-full rounded-2xl"
-                    style={{ width: "70%" }}
+                    style={{ width: "60%" }}
                   ></div>
                 </div>
               </div>
@@ -126,7 +126,7 @@ function SkillsPreviewSection() {
                 <div className="bg-gray-300 h-1 w-40 rounded-2xl">
                   <div
                     className="bg-green-500 h-full rounded-2xl"
-                    style={{ width: "40%" }}
+                    style={{ width: "90%" }}
                   ></div>
                 </div>
               </div>
@@ -135,7 +135,7 @@ function SkillsPreviewSection() {
                 <div className="bg-gray-300 h-1 w-40 rounded-2xl">
                   <div
                     className="bg-green-500 h-full rounded-2xl"
-                    style={{ width: "65%" }}
+                    style={{ width: "45%" }}
                   ></div>
                 </div>
               </div>

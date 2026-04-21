@@ -8,8 +8,7 @@ function SkillsHeroSection() {
           <p className="text-green-700 font-firaCode">// stack & skills</p>
           <h1 className="text-3xl font-bold mb-2">o que eu sei fazer</h1>
           <p className="text-gray-500 mb-10">
-            tecnologias que já usei em projetos reais — sem blá-blá-blá de
-            "proficiência em Office".
+            tecnologias que uso no dia a dia pra desenvolver.
           </p>
 
           <div className="grid gap-2 text-gray-500 lg:flex lg:gap-14">
