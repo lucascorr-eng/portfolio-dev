@@ -10,19 +10,25 @@ function SkillsLearningSection() {
 
           <div className="grid gap-3 lg:flex lg:justify-between">
             <div className="grid  border border-green-400 bg-white rounded-xl p-3 lg:w-full">
-              <p className="text-lg font-medium">AWS (Cloud)</p>
-              <p className="text-green-700 mt-2">EC2, S3, Lambda e infraestrutura em nuvem</p>
-              <span className=" rounded-md bg-green-100 py-1 px-3 w-max mt-3">DevOps</span>
+              <p className="text-lg font-medium">React avançado</p>
+              <p className="text-green-700 mt-2">
+                Otimização de renderização, padrões de design como HOCs e Render
+                Props, além de gerenciamento de estado complexo e Performance
+                Patterns.
+              </p>
+              <span className=" rounded-md bg-green-100 py-1 px-3 w-max mt-3">
+                Frontend
+              </span>
             </div>
             <div className="grid  border border-green-400 bg-white rounded-xl p-3 lg:w-full">
-              <p className="text-lg font-medium">LangChain</p>
-              <p className="text-green-700 mt-2">Pipelines com LLMs, RAG e agentes em Python</p>
-              <span className=" rounded-md bg-green-100 py-1 px-3 w-max mt-3">IA / LLM</span>
-            </div>
-            <div className="grid  border border-green-400 bg-white rounded-xl p-3 lg:w-full">
-              <p className="text-lg font-medium">TypeScript avançado</p>
-              <p className="text-green-700 mt-2">Genéricos, decorators e design patterns</p>
-              <span className=" rounded-md bg-green-100 py-1 px-3 w-max mt-3">Frontend</span>
+              <p className="text-lg font-medium">Node.js</p>
+              <p className="text-green-700 mt-2">
+                Desenvolvimento de arquiteturas escaláveis, mensageria, padrões
+                de segurança em APIs e integração com serviços de nuvem.
+              </p>
+              <span className=" rounded-md bg-green-100 py-1 px-3 w-max mt-3">
+                Backend
+              </span>
             </div>
           </div>
         </div>

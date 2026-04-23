@@ -17,46 +17,33 @@ function SkillsListSection() {
                 </div>
                 <p className="text-lg font-medium">frontend</p>
               </div>
-              <p className="text-gray-500">6 techs</p>
+              <p className="text-gray-500">4 techs</p>
             </div>
 
             <div className="grid lg:grid-cols-4 gap-4">
               <div className="border border-gray-500 p-4 rounded-xl">
                 <div className="flex justify-between">
-                  <p className=" text-lg">React</p>
+                  <p className=" text-lg">html</p>
                   <div className="flex items-center gap-3">
                     <div className="w-3 h-3 bg-green-400 rounded-full"></div>
                     <p className="text-gray-500">3 anos</p>
                   </div>
                 </div>
                 <p className="text-gray-500 mt-3">
-                  hooks, context, performance e SSR com Next.js
+                  estrutura semântica, SEO e acessibilidade.
                 </p>
               </div>
 
               <div className="border border-gray-500 p-4 rounded-xl">
                 <div className="flex justify-between">
-                  <p className=" text-lg">Next.js</p>
+                  <p className=" text-lg">css</p>
                   <div className="flex items-center gap-3">
                     <div className="w-3 h-3 bg-green-400 rounded-full"></div>
-                    <p className="text-gray-500">2 anos</p>
+                    <p className="text-gray-500">3 anos</p>
                   </div>
                 </div>
                 <p className="text-gray-500 mt-3">
-                  app router, server components, ISR e Vercel
-                </p>
-              </div>
-
-              <div className="border border-gray-500 p-4 rounded-xl">
-                <div className="flex justify-between">
-                  <p className=" text-lg">TypeScript</p>
-                  <div className="flex items-center gap-3">
-                    <div className="w-3 h-3 bg-blue-400 rounded-full"></div>
-                    <p className="text-gray-500">1.5 anos</p>
-                  </div>
-                </div>
-                <p className="text-gray-500 mt-3">
-                  tipagem em projetos reais, interfaces e generics
+                  layouts responsivos, Flexbox, Grid e animações.
                 </p>
               </div>
 
@@ -64,38 +51,25 @@ function SkillsListSection() {
                 <div className="flex justify-between">
                   <p className=" text-lg">Tailwind CSS</p>
                   <div className="flex items-center gap-3">
-                    <div className="w-3 h-3 bg-green-400 rounded-full"></div>
-                    <p className="text-gray-500">2 anos</p>
+                    <div className="w-3 h-3 bg-yellow-400 rounded-full"></div>
+                    <p className="text-gray-500">1 ano</p>
                   </div>
                 </div>
                 <p className="text-gray-500 mt-3">
-                  design systems, responsivo e temas customizados
+                  estilização via utilitários e Design Systems.
                 </p>
               </div>
 
               <div className="border border-gray-500 p-4 rounded-xl">
                 <div className="flex justify-between">
-                  <p className=" text-lg">Figma</p>
+                  <p className=" text-lg">React</p>
                   <div className="flex items-center gap-3">
-                    <div className="w-3 h-3 bg-yellow-400 rounded-full"></div>
-                    <p className="text-gray-500">esporádico</p>
+                    <div className="w-3 h-3 bg-purple-400 rounded-full"></div>
+                    <p className="text-gray-500">1 ano</p>
                   </div>
                 </div>
                 <p className="text-gray-500 mt-3">
-                  prototipação, componentes e handoff
-                </p>
-              </div>
-
-              <div className="border border-gray-500 p-4 rounded-xl">
-                <div className="flex justify-between">
-                  <p className=" text-lg">React Native</p>
-                  <div className="flex items-center gap-3">
-                    <div className="w-3 h-3 bg-yellow-400 rounded-full"></div>
-                    <p className="text-gray-500">1 projeto</p>
-                  </div>
-                </div>
-                <p className="text-gray-500 mt-3">
-                  apps mobile com Expo e navegação
+                  componentização, Hooks e SPAs dinâmicas.
                 </p>
               </div>
             </div>
@@ -117,45 +91,45 @@ function SkillsListSection() {
             <div className="grid lg:grid-cols-4 gap-4">
               <div className="border border-gray-500 p-4 rounded-xl">
                 <div className="flex justify-between">
-                  <p className=" text-lg">React</p>
+                  <p className=" text-lg">Node.js</p>
                   <div className="flex items-center gap-3">
-                    <div className="w-3 h-3 bg-green-400 rounded-full"></div>
-                    <p className="text-gray-500">3 anos</p>
+                    <div className="w-3 h-3 bg-purple-400 rounded-full"></div>
+                    <p className="text-gray-500">1 ano</p>
                   </div>
                 </div>
                 <p className="text-gray-500 mt-3">
-                  hooks, context, performance e SSR com Next.js
+                  APIs escaláveis, Express e ecossistema JavaScript.
                 </p>
               </div>
 
               <div className="border border-gray-500 p-4 rounded-xl">
                 <div className="flex justify-between">
-                  <p className=" text-lg">Next.js</p>
+                  <p className=" text-lg">APIs REST</p>
                   <div className="flex items-center gap-3">
-                    <div className="w-3 h-3 bg-green-400 rounded-full"></div>
-                    <p className="text-gray-500">2 anos</p>
+                    <div className="w-3 h-3 bg-yellow-400 rounded-full"></div>
+                    <p className="text-gray-500">1.5 anos</p>
                   </div>
                 </div>
                 <p className="text-gray-500 mt-3">
-                  app router, server components, ISR e Vercel
+                  arquitetura, métodos HTTP e integração de dados.
                 </p>
               </div>
 
               <div className="border border-gray-500 p-4 rounded-xl">
                 <div className="flex justify-between">
-                  <p className=" text-lg">TypeScript</p>
+                  <p className=" text-lg">Database </p>
                   <div className="flex items-center gap-3">
                     <div className="w-3 h-3 bg-blue-400 rounded-full"></div>
                     <p className="text-gray-500">1.5 anos</p>
                   </div>
                 </div>
                 <p className="text-gray-500 mt-3">
-                  tipagem em projetos reais, interfaces e generics
+                  modelagem de dados, consultas SQL e NoSQL.
                 </p>
               </div>
             </div>
 
-            <div >
+            <div>
               <DividerLine />
             </div>
           </div>
@@ -174,40 +148,40 @@ function SkillsListSection() {
             <div className="grid lg:grid-cols-4 gap-4">
               <div className="border border-gray-500 p-4 rounded-xl">
                 <div className="flex justify-between">
-                  <p className=" text-lg">Tailwind CSS</p>
+                  <p className=" text-lg">OpenAI API</p>
                   <div className="flex items-center gap-3">
-                    <div className="w-3 h-3 bg-green-400 rounded-full"></div>
-                    <p className="text-gray-500">2 anos</p>
-                  </div>
-                </div>
-                <p className="text-gray-500 mt-3">
-                  design systems, responsivo e temas customizados
-                </p>
-              </div>
-
-              <div className="border border-gray-500 p-4 rounded-xl">
-                <div className="flex justify-between">
-                  <p className=" text-lg">Figma</p>
-                  <div className="flex items-center gap-3">
-                    <div className="w-3 h-3 bg-yellow-400 rounded-full"></div>
+                    <div className="w-3 h-3 bg-purple-400 rounded-full"></div>
                     <p className="text-gray-500">esporádico</p>
                   </div>
                 </div>
                 <p className="text-gray-500 mt-3">
-                  prototipação, componentes e handoff
+                  integração de LLMs, engenharia de prompt e RAG.
                 </p>
               </div>
 
               <div className="border border-gray-500 p-4 rounded-xl">
                 <div className="flex justify-between">
-                  <p className=" text-lg">React Native</p>
+                  <p className=" text-lg">Chatbots AI</p>
                   <div className="flex items-center gap-3">
-                    <div className="w-3 h-3 bg-yellow-400 rounded-full"></div>
-                    <p className="text-gray-500">1 projeto</p>
+                    <div className="w-3 h-3 bg-purple-400 rounded-full"></div>
+                    <p className="text-gray-500">esporádico</p>
                   </div>
                 </div>
                 <p className="text-gray-500 mt-3">
-                  apps mobile com Expo e navegação
+                  fluxos conversacionais e interfaces inteligentes.
+                </p>
+              </div>
+
+              <div className="border border-gray-500 p-4 rounded-xl">
+                <div className="flex justify-between">
+                  <p className=" text-lg">Automações com IA</p>
+                  <div className="flex items-center gap-3">
+                    <div className="w-3 h-3 bg-purple-400 rounded-full"></div>
+                    <p className="text-gray-500">esporádico</p>
+                  </div>
+                </div>
+                <p className="text-gray-500 mt-3">
+                  otimização de workflows e processamento de dados.
                 </p>
               </div>
             </div>
@@ -223,87 +197,46 @@ function SkillsListSection() {
                 </div>
                 <p className="text-lg font-medium">ferramentas & devops </p>
               </div>
-              <p className="text-gray-500">6 techs</p>
+              <p className="text-gray-500">3 techs</p>
             </div>
 
-            <div className="grid lg:grid-cols-4 gap-4">
-              <div className="border border-gray-500 p-4 rounded-xl">
-                <div className="flex justify-between">
-                  <p className=" text-lg">React</p>
-                  <div className="flex items-center gap-3">
-                    <div className="w-3 h-3 bg-green-400 rounded-full"></div>
-                    <p className="text-gray-500">3 anos</p>
-                  </div>
+            <div className="border border-gray-500 p-4 rounded-xl">
+              <div className="flex justify-between">
+                <p className=" text-lg">VS Code</p>
+                <div className="flex items-center gap-3">
+                  <div className="w-3 h-3 bg-green-400 rounded-full"></div>
+                  <p className="text-gray-500">3 anos</p>
                 </div>
-                <p className="text-gray-500 mt-3">
-                  hooks, context, performance e SSR com Next.js
-                </p>
               </div>
+              <p className="text-gray-500 mt-3">
+                editor principal, extensões e produtividade no desenvolvimento.
+              </p>
+            </div>
 
-              <div className="border border-gray-500 p-4 rounded-xl">
-                <div className="flex justify-between">
-                  <p className=" text-lg">Next.js</p>
-                  <div className="flex items-center gap-3">
-                    <div className="w-3 h-3 bg-green-400 rounded-full"></div>
-                    <p className="text-gray-500">2 anos</p>
-                  </div>
+            <div className="border border-gray-500 p-4 rounded-xl">
+              <div className="flex justify-between">
+                <p className=" text-lg">Git / GitHub</p>
+                <div className="flex items-center gap-3">
+                  <div className="w-3 h-3 bg-green-400 rounded-full"></div>
+                  <p className="text-gray-500">3 anos</p>
                 </div>
-                <p className="text-gray-500 mt-3">
-                  app router, server components, ISR e Vercel
-                </p>
               </div>
+              <p className="text-gray-500 mt-3">
+                controle de versão, Gitflow e colaboração em equipe.
+              </p>
+            </div>
 
-              <div className="border border-gray-500 p-4 rounded-xl">
-                <div className="flex justify-between">
-                  <p className=" text-lg">TypeScript</p>
-                  <div className="flex items-center gap-3">
-                    <div className="w-3 h-3 bg-blue-400 rounded-full"></div>
-                    <p className="text-gray-500">1.5 anos</p>
-                  </div>
+            <div className="border border-gray-500 p-4 rounded-xl">
+              <div className="flex justify-between">
+                <p className=" text-lg">Figma</p>
+                <div className="flex items-center gap-3">
+                  <div className="w-3 h-3 bg-yellow-400 rounded-full"></div>
+                  <p className="text-gray-500">2 anos</p>
                 </div>
-                <p className="text-gray-500 mt-3">
-                  tipagem em projetos reais, interfaces e generics
-                </p>
               </div>
-
-              <div className="border border-gray-500 p-4 rounded-xl">
-                <div className="flex justify-between">
-                  <p className=" text-lg">Tailwind CSS</p>
-                  <div className="flex items-center gap-3">
-                    <div className="w-3 h-3 bg-green-400 rounded-full"></div>
-                    <p className="text-gray-500">2 anos</p>
-                  </div>
-                </div>
-                <p className="text-gray-500 mt-3">
-                  design systems, responsivo e temas customizados
-                </p>
-              </div>
-
-              <div className="border border-gray-500 p-4 rounded-xl">
-                <div className="flex justify-between">
-                  <p className=" text-lg">Figma</p>
-                  <div className="flex items-center gap-3">
-                    <div className="w-3 h-3 bg-yellow-400 rounded-full"></div>
-                    <p className="text-gray-500">esporádico</p>
-                  </div>
-                </div>
-                <p className="text-gray-500 mt-3">
-                  prototipação, componentes e handoff
-                </p>
-              </div>
-
-              <div className="border border-gray-500 p-4 rounded-xl">
-                <div className="flex justify-between">
-                  <p className=" text-lg">React Native</p>
-                  <div className="flex items-center gap-3">
-                    <div className="w-3 h-3 bg-yellow-400 rounded-full"></div>
-                    <p className="text-gray-500">1 projeto</p>
-                  </div>
-                </div>
-                <p className="text-gray-500 mt-3">
-                  apps mobile com Expo e navegação
-                </p>
-              </div>
+              <p className="text-gray-500 mt-3">
+                prototipagem, UI Design e Handoff técnico.
+              </p>
             </div>
           </div>
         </div>

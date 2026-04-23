@@ -85,7 +85,7 @@ function SkillsPreviewSection() {
                 <div className="bg-gray-300 h-1 w-40 rounded-2xl">
                   <div
                     className="bg-green-500 h-full rounded-2xl"
-                    style={{ width: "70%" }}
+                    style={{ width: "30%" }}
                   ></div>
                 </div>
               </div>
@@ -113,16 +113,7 @@ function SkillsPreviewSection() {
             <h3 className="text-gray-500 mb-2">FERRAMENTAS</h3>
             <div className="grid gap-1">
               <div className="flex justify-between items-center">
-                <p>Docker</p>
-                <div className="bg-gray-300 h-1 w-40 rounded-2xl">
-                  <div
-                    className="bg-green-500 h-full rounded-2xl"
-                    style={{ width: "60%" }}
-                  ></div>
-                </div>
-              </div>
-              <div className="flex justify-between items-center">
-                <p>Git / GitHub</p>
+                <p>VS Code</p>
                 <div className="bg-gray-300 h-1 w-40 rounded-2xl">
                   <div
                     className="bg-green-500 h-full rounded-2xl"
@@ -131,11 +122,20 @@ function SkillsPreviewSection() {
                 </div>
               </div>
               <div className="flex justify-between items-center">
-                <p>AWS</p>
+                <p>Git / GitHub</p>
                 <div className="bg-gray-300 h-1 w-40 rounded-2xl">
                   <div
                     className="bg-green-500 h-full rounded-2xl"
-                    style={{ width: "45%" }}
+                    style={{ width: "70%" }}
+                  ></div>
+                </div>
+              </div>
+              <div className="flex justify-between items-center">
+                <p>Figma</p>
+                <div className="bg-gray-300 h-1 w-40 rounded-2xl">
+                  <div
+                    className="bg-green-500 h-full rounded-2xl"
+                    style={{ width: "55%" }}
                   ></div>
                 </div>
               </div>
