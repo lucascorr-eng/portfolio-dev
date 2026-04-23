@@ -56,11 +56,11 @@ function HeroSection() {
 
         <div className="grid grid-cols-3 gap-3 text-center order-4 lg:order-6">
           <div className="bg-mist-100 rounded-xl  py-2">
-            <p className="font-bold text-xl">12+</p>
+            <p className="font-bold text-xl">10+</p>
             <span className="text-xs text-gray-500">projeto</span>
           </div>
           <div className="bg-mist-100 rounded-xl py-2">
-            <p className="font-bold text-xl">2 anos</p>
+            <p className="font-bold text-xl">3 anos</p>
             <span className="text-xs text-gray-500">experiência</span>
           </div>
           <div className="bg-mist-100 rounded-xl py-2">

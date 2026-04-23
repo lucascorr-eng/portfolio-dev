@@ -1,7 +1,7 @@
 function ProjectsCtaSection() {
   return (
     <>
-      <div className="font-inter  text-sm px-6 mt-12 lg:mt-2">
+      <div className="font-inter  text-sm px-6 mt-12 lg:mt-2 lg:w-full lg:max-w-480 lg:mx-auto">
         <div className="border border-gray-500 rounded-2xl p-4 lg:flex lg:items-center lg:justify-between">
           <p className="text-gray-500">
             quer ver mais? tudo está no <a className="text-black">GitHub</a>

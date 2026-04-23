@@ -200,43 +200,46 @@ function SkillsListSection() {
               <p className="text-gray-500">3 techs</p>
             </div>
 
-            <div className="border border-gray-500 p-4 rounded-xl">
-              <div className="flex justify-between">
-                <p className=" text-lg">VS Code</p>
-                <div className="flex items-center gap-3">
-                  <div className="w-3 h-3 bg-green-400 rounded-full"></div>
-                  <p className="text-gray-500">3 anos</p>
+            <div className="grid lg:grid-cols-4 gap-4">
+              <div className="border border-gray-500 p-4 rounded-xl">
+                <div className="flex justify-between">
+                  <p className=" text-lg">VS Code</p>
+                  <div className="flex items-center gap-3">
+                    <div className="w-3 h-3 bg-green-400 rounded-full"></div>
+                    <p className="text-gray-500">3 anos</p>
+                  </div>
                 </div>
+                <p className="text-gray-500 mt-3">
+                  editor principal, extensões e produtividade no
+                  desenvolvimento.
+                </p>
               </div>
-              <p className="text-gray-500 mt-3">
-                editor principal, extensões e produtividade no desenvolvimento.
-              </p>
-            </div>
 
-            <div className="border border-gray-500 p-4 rounded-xl">
-              <div className="flex justify-between">
-                <p className=" text-lg">Git / GitHub</p>
-                <div className="flex items-center gap-3">
-                  <div className="w-3 h-3 bg-green-400 rounded-full"></div>
-                  <p className="text-gray-500">3 anos</p>
+              <div className="border border-gray-500 p-4 rounded-xl">
+                <div className="flex justify-between">
+                  <p className=" text-lg">Git / GitHub</p>
+                  <div className="flex items-center gap-3">
+                    <div className="w-3 h-3 bg-green-400 rounded-full"></div>
+                    <p className="text-gray-500">3 anos</p>
+                  </div>
                 </div>
+                <p className="text-gray-500 mt-3">
+                  controle de versão, Gitflow e colaboração em equipe.
+                </p>
               </div>
-              <p className="text-gray-500 mt-3">
-                controle de versão, Gitflow e colaboração em equipe.
-              </p>
-            </div>
 
-            <div className="border border-gray-500 p-4 rounded-xl">
-              <div className="flex justify-between">
-                <p className=" text-lg">Figma</p>
-                <div className="flex items-center gap-3">
-                  <div className="w-3 h-3 bg-yellow-400 rounded-full"></div>
-                  <p className="text-gray-500">2 anos</p>
+              <div className="border border-gray-500 p-4 rounded-xl">
+                <div className="flex justify-between">
+                  <p className=" text-lg">Figma</p>
+                  <div className="flex items-center gap-3">
+                    <div className="w-3 h-3 bg-yellow-400 rounded-full"></div>
+                    <p className="text-gray-500">2 anos</p>
+                  </div>
                 </div>
+                <p className="text-gray-500 mt-3">
+                  prototipagem, UI Design e Handoff técnico.
+                </p>
               </div>
-              <p className="text-gray-500 mt-3">
-                prototipagem, UI Design e Handoff técnico.
-              </p>
             </div>
           </div>
         </div>

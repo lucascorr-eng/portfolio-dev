@@ -25,15 +25,15 @@ function ContactInfoSection() {
             </div>
             <div className="flex items-center gap-2">
               <div className="w-2 h-2 rounded-full bg-green-600"></div>
-              <p>aplicações com IA / LLMs</p>
+              <p>projetos com integração de APIs e dados em tempo real</p>
             </div>
             <div className="flex items-center gap-2">
               <div className="w-2 h-2 rounded-full bg-green-600"></div>
-              <p>consultoria e code review</p>
+              <p>evolução em backend, arquitetura e boas práticas</p>
             </div>
             <div className="flex items-center gap-2">
               <div className="w-2 h-2 rounded-full bg-green-600"></div>
-              <p>parcerias em startups early-stage</p>
+              <p>oportunidades para aprender e contribuir em projetos reais</p>
             </div>
           </div>
         </div>

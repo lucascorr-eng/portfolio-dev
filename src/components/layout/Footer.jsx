@@ -27,11 +27,11 @@ function Footer() {
               linkedin
             </a>
             <a
-              href="https://www.instagram.com/lucascorreabt/"
+              href="https://www.youtube.com/@lcs-engsoft"
               target="_blank"
               rel="noopener noreferrer"
             >
-              instagram
+              youtube
             </a>
           </div>
         </div>

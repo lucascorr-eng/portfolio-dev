@@ -14,7 +14,7 @@ function AboutInfoSection() {
         </div>
         <div className="rounded-lg bg-mist-100 p-3">
           <p className="text-gray-500">foco atual</p>
-          <p className="text-base">TS + AWS</p>
+          <p className="text-base">Node</p>
         </div>
         <div className="rounded-lg bg-mist-100 p-3">
           <p className="text-gray-500">stack fav.</p>

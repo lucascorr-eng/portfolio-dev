@@ -6,7 +6,7 @@ import movie from "../../assets/icons/movie.svg"
 function ProjectsListSection() {
   return (
     <>
-      <div className="grid font-inter text-sm px-6 lg:grid lg:grid-cols-3 gap-6 py-8">
+      <div className="grid font-inter text-sm px-6 lg:grid lg:grid-cols-3 gap-6 py-8 lg:w-full lg:max-w-480 lg:mx-auto">
         <div className="grid text-gray-500">
           <div className=" border border-gray-500 rounded-md overflow-hidden">
             <div className="h-35 bg-blue-100 flex items-center justify-center">
